@@ -9,3 +9,5 @@
 * The ```Location``` class also needs to have a method called ```getCurrentLocation()```. Move the try-catch block with the code where you ```getCurrentPosition()``` in the loading_screen to the ```getCurrentLocation()``` method. 
 
 * In the loading_screen.dart update ```getLocation()``` so that you 1) create a new ```Location``` object, 2) you call the ```getCurrentLocation()``` method, and 3) you print the values stored inside ```latitude``` and ```longitude```. 
+
+*Hint*: Assign the values to your ```latitude``` and ```longitude``` properties using ```position.latitude``` and ```position.longitude```. 
