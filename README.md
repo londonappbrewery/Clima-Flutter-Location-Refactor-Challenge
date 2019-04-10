@@ -1,12 +1,11 @@
 # Clima Location Refactoring Challenge
 
-Refactor the Clima app's code so that all the logic of getting the current location will be handled by a dedicated ```Location``` object. 
+* Refactor the Clima app's code so that all the logic of getting the current location will be handled by a dedicated ```Location``` object. 
 
-This means creating a seperate Location() class in the location.dart file. 
+* Creating a seperate ```Location``` class in the location.dart file. 
 
-This class needs to have two properties: a latitude and a longitude. 
+* This class needs to have two properties: a ```latitude``` and a ```longitude```. 
 
-It also needs to have a method called getCurrentLocation(). This is where you'll need to move the try-catch block from the loading_screen. 
+* The ```Location``` class also needs to have a method called ```getCurrentLocation()```. Move the try-catch block with the code where you ```getCurrentPosition()``` in the loading_screen to the ```getCurrentLocation()``` method. 
 
-Back in the loading_screen update the getLocation() method so that you create a new location object, you call the getCurrentLocation() method, and then you print the latitude and the longitude that were stored in 
-
+* In the loading_screen.dart update ```getLocation()``` so that you 1) create a new ```Location``` object, 2) you call the ```getCurrentLocation()``` method, and 3) you print the values stored inside ```latitude``` and ```longitude```. 
