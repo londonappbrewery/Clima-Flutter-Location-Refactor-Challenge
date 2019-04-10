@@ -1,6 +1,6 @@
 # Clima Location Refactoring Challenge
 
-Refactor the Clima app's code so that all the logic of getting the current location will be handled by a dedicated '''Location''' object. 
+Refactor the Clima app's code so that all the logic of getting the current location will be handled by a dedicated ```Location``` object. 
 
 This means creating a seperate Location() class in the location.dart file. 
 
