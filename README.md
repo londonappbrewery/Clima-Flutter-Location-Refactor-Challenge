@@ -2,7 +2,7 @@
 
 * Refactor the Clima app's code so that all the logic of getting the current location will be handled by a dedicated ```Location``` object. 
 
-* Creating a seperate ```Location``` class in the location.dart file. 
+* Creating a separate ```Location``` class in the location.dart file. 
 
 * This class needs to have two properties: a ```latitude``` and a ```longitude```. 
 
